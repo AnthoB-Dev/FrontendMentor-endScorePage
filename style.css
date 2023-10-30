@@ -211,6 +211,7 @@ body {
    #wrapper {
       height: auto;
       flex-direction: column;
+      border-radius: 0;
    }
 
    #leftWrapper {
