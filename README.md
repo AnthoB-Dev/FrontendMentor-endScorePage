@@ -40,11 +40,10 @@ I started by creating a sketch in Figma based on the provided .png images in the
 
 ### Built with
 
+- Figma
 - HTML5
 - CSS3
 - JavaScript
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -64,10 +63,6 @@ async function fetchData() {
   }
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ## Author
 
