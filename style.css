@@ -210,24 +210,69 @@ body {
 @media only screen and (max-width: 630px) {
    #wrapper {
       height: auto;
+      min-height: 100vh;
       flex-direction: column;
       border-radius: 0;
+      box-shadow: none;
    }
 
    #leftWrapper {
       max-width: 100%;
+      max-height: 375px;
       padding: 25px 40px 40px;
       border-radius: 0 0 30px 30px;
+   }
+
+   #leftWrapper > h2 {
+      font-size: 18px;
+   }
+
+   #score {
+      width: 140px;
+      min-height: 140px;
+   }
+
+   #score div:first-child {
+      font-size: 56px;
+   }
+
+   #score div:last-child {
+      font-size: 16px;
+   }
+
+   #scoreSum h2 {
+      font-size: 24px;
+   }
+
+   #scoreSum p {
+      font-size: 16px;
    }
 
    #rightWrapper {
       max-width: 100%;
       padding: 25px 30px;
       gap: 20px;
+      justify-content: initial;
+   }
+
+   #rightWrapper > h2 {
+      font-size: 18px;
    }
 
    .sumEle div {
       display: flex;
       justify-content: center;
+   }
+
+   .sumEle h3 {
+      font-size: 16px;
+   }
+
+   .sumEleBolded {
+      font-size: 16px;
+   }
+
+   .sumEleFadded {
+      font-size: 16px;
    }
 }
