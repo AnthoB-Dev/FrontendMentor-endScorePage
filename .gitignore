@@ -15,5 +15,5 @@
 .DS_Store
 .prettierignore
 
-/README-old.md/
-/style-guide.md/
+/README-old.md
+/style-guide.md
